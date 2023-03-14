@@ -1,5 +1,5 @@
 {
-  "name": "audiosample",
+  "name": "master-pitch",
   "version": "1.0.0",
   "description": "Edit audio pitch and create instruments inside your webpage!",
   "main": "index.js",
