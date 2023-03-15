@@ -2,7 +2,7 @@
   "name": "master-pitch",
   "version": "1.0.2",
   "description": "Edit audio pitch and create instruments inside your webpage!",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Diego Hartmann",
   "license": "MIT",
   "private": false,
