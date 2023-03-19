@@ -10,16 +10,16 @@ Enter [Package NPM page](https://www.npmjs.com/package/master-pitch)
 
 # Import
 ```js
-import { load, play } from 'master-pitch';
+import { loadBuffer, playBuffer } from 'master-pitch';
 ``` 
  
  # Use
  ```js
 // loading
-const myAudio = await load('../audios/sample.mp3');
+const myAudio = await loadBuffer('../audios/sample.mp3');
 
 // playing with pitch exemples
 const default = 60;
 const higher = 62;
-play(myAudio, default, higher);
+playBuffer(myAudio, default, higher);
 ```
